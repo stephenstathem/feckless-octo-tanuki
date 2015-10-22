@@ -1,0 +1,40 @@
+/* clear fix hack */
+.clearfix:after {
+	content: ".";
+	display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+}
+
+.alignleft{
+	float: left;
+}
+
+/*******************************************
+/* BASE STYLES
+/********************************************/
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.logo {
+	font-size: 24px;
+	font-weight: 900;
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+
+.intro {
+	font-size: 48px;
+}
